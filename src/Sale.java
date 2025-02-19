@@ -9,6 +9,7 @@ public class Sale {
         this.products = new ArrayList<>();
         this.totalPrice = totalPrice;
     }
+
     public void addProduct(Product product) {
         products.add(product);
     }
